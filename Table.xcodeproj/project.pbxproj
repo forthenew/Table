@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7687719E2588628000FD208F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7687719D2588628000FD208F /* TableViewController.swift */; };
+		768771A3258863C600FD208F /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 768771A0258863C500FD208F /* pencil.png */; };
+		768771A4258863C600FD208F /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 768771A1258863C500FD208F /* clock.png */; };
+		768771A5258863C600FD208F /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 768771A2258863C600FD208F /* cart.png */; };
 		76AE3ED225884F3000633AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE3ED125884F3000633AE8 /* AppDelegate.swift */; };
 		76AE3ED425884F3000633AE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE3ED325884F3000633AE8 /* SceneDelegate.swift */; };
-		76AE3ED625884F3000633AE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE3ED525884F3000633AE8 /* ViewController.swift */; };
 		76AE3ED925884F3000633AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AE3ED725884F3000633AE8 /* Main.storyboard */; };
 		76AE3EDB25884F3100633AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AE3EDA25884F3100633AE8 /* Assets.xcassets */; };
 		76AE3EDE25884F3100633AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AE3EDC25884F3100633AE8 /* LaunchScreen.storyboard */; };
+		76AE3EEC25885B8A00633AE8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE3EEB25885B8A00633AE8 /* AddViewController.swift */; };
+		76AE3EEF25885BB300633AE8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE3EEE25885BB300633AE8 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7687719D2588628000FD208F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		768771A0258863C500FD208F /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		768771A1258863C500FD208F /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		768771A2258863C600FD208F /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
 		76AE3ECE25884F3000633AE8 /* Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Table.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AE3ED125884F3000633AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76AE3ED325884F3000633AE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76AE3ED525884F3000633AE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76AE3ED825884F3000633AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76AE3EDA25884F3100633AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76AE3EDD25884F3100633AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76AE3EDF25884F3100633AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AE3EEB25885B8A00633AE8 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		76AE3EEE25885BB300633AE8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		76AE3ED025884F3000633AE8 /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				768771A2258863C600FD208F /* cart.png */,
+				768771A1258863C500FD208F /* clock.png */,
+				768771A0258863C500FD208F /* pencil.png */,
 				76AE3ED125884F3000633AE8 /* AppDelegate.swift */,
 				76AE3ED325884F3000633AE8 /* SceneDelegate.swift */,
-				76AE3ED525884F3000633AE8 /* ViewController.swift */,
 				76AE3ED725884F3000633AE8 /* Main.storyboard */,
 				76AE3EDA25884F3100633AE8 /* Assets.xcassets */,
 				76AE3EDC25884F3100633AE8 /* LaunchScreen.storyboard */,
 				76AE3EDF25884F3100633AE8 /* Info.plist */,
+				76AE3EEB25885B8A00633AE8 /* AddViewController.swift */,
+				76AE3EEE25885BB300633AE8 /* DetailViewController.swift */,
+				7687719D2588628000FD208F /* TableViewController.swift */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -124,9 +139,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768771A3258863C600FD208F /* pencil.png in Resources */,
+				768771A4258863C600FD208F /* clock.png in Resources */,
 				76AE3EDE25884F3100633AE8 /* LaunchScreen.storyboard in Resources */,
 				76AE3EDB25884F3100633AE8 /* Assets.xcassets in Resources */,
 				76AE3ED925884F3000633AE8 /* Main.storyboard in Resources */,
+				768771A5258863C600FD208F /* cart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AE3ED625884F3000633AE8 /* ViewController.swift in Sources */,
 				76AE3ED225884F3000633AE8 /* AppDelegate.swift in Sources */,
+				76AE3EEF25885BB300633AE8 /* DetailViewController.swift in Sources */,
+				76AE3EEC25885B8A00633AE8 /* AddViewController.swift in Sources */,
+				7687719E2588628000FD208F /* TableViewController.swift in Sources */,
 				76AE3ED425884F3000633AE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.opentidecn.subwayapp.Table;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.opentidecn.subwayapp.Table;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
